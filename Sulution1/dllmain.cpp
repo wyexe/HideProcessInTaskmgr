@@ -3,6 +3,11 @@
 #include <winternl.h>
 #include "LdrHeader.h"
 
+#ifdef _WIN64
+#error "this project must Compile in x86"
+#endif // _WIN64
+
+
 // Use static libaray mode ...........
 #pragma comment(lib,"user32.lib")
 

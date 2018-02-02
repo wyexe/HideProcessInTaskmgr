@@ -1,6 +1,11 @@
 #include "LdrHeader.h"
 #include <winternl.h>
 
+#ifndef _WIN64
+#error "this project must Compile in x64"
+#endif // !_WIN64
+
+
 #pragma comment(lib,"user32.lib")
 
 CONST static std::wstring gwsProcName = L"explorer.exe"; // ingrone character case
