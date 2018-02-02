@@ -1,5 +1,6 @@
 # HideProcessInTaskmgr
 -----sulution1--------------------------------------------<br>
+ingore 'explorer.exe' Process<br>
 Windows xp<br><br>
 
 ![image](https://github.com/VideoCardGuy/HideProcessInTaskmgr/raw/master/screenshot/1.jpg)<br><br><br>
